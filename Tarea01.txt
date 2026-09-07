@@ -1,0 +1,446 @@
+﻿**********************
+Inicio de la transcripción de Windows PowerShell
+Hora de inicio: 20260907180841
+Nombre de usuario: LAPTOP-GFSIO0R1\xavia
+Usuario RunAs: LAPTOP-GFSIO0R1\xavia
+Nombre de la configuración: 
+Máquina: LAPTOP-GFSIO0R1 (Microsoft Windows NT 10.0.19045.0)
+Aplicación host: C:\windows\system32\WindowsPowerShell\v1.0\powershell.exe
+Id. de proceso: 29608
+PSVersion: 5.1.19041.6456
+PSEdition: Desktop
+PSCompatibleVersions: 1.0, 2.0, 3.0, 4.0, 5.0, 5.1.19041.6456
+BuildVersion: 10.0.19041.6456
+CLRVersion: 4.0.30319.42000
+WSManStackVersion: 3.0
+PSRemotingProtocolVersion: 2.3
+SerializationVersion: 1.1.0.1
+**********************
+La transcripción ha comenzado. El archivo de salida es Tarea01.txt
+PS C:\Users\xavia\OneDrive\Documentos\Curso-E520\CienciadeDatos\repo-curso-2026\TAREAS> pwd
+
+Path
+----
+C:\Users\xavia\OneDrive\Documentos\Curso-E520\CienciadeDatos\repo-curso-2026\TAREAS
+
+
+PS C:\Users\xavia\OneDrive\Documentos\Curso-E520\CienciadeDatos\repo-curso-2026\TAREAS> cd \
+PS C:\> pwd
+
+Path
+----
+C:\
+
+
+PS C:\> cd
+PS C:\> pwd
+
+Path
+----
+C:\
+
+
+PS C:\> cd ~
+PS C:\Users\xavia> pwd
+
+Path
+----
+C:\Users\xavia
+
+
+PS C:\Users\xavia> cd ..
+PS C:\Users> cd
+PS C:\Users> cd ~
+PS C:\Users\xavia> cd ../..
+PS C:\> cd ~
+PS C:\Users\xavia> cd OnDrive
+cd : No se encuentra la ruta de acceso 'C:\Users\xavia\OnDrive' porque no existe.
+En línea: 1 Carácter: 1
++ cd OnDrive
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\xavia\OnDrive:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso 'C:\Users\xavia\OnDrive' porque no existe.
+En línea: 1 Carácter: 1
++ cd OnDrive
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\xavia\OnDrive:String) [Set-Location], ItemNotFoundEx
+   ception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\xavia> cd onedrive
+PS C:\Users\xavia\onedrive> cd home
+cd : No se encuentra la ruta de acceso 'C:\Users\xavia\onedrive\home' porque no existe.
+En línea: 1 Carácter: 1
++ cd home
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\xavia\onedrive\home:String) [Set-Location], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso 'C:\Users\xavia\onedrive\home' porque no existe.
+En línea: 1 Carácter: 1
++ cd home
++ ~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\xavia\onedrive\home:String) [Set-Location], ItemNotF
+   oundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\xavia\onedrive> cd Documentos
+PS C:\Users\xavia\onedrive\Documentos> cd Curso-E520
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520> pwd
+
+Path
+----
+C:\Users\xavia\onedrive\Documentos\Curso-E520
+
+
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520> cd CienciadeDatos
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\CienciadeDatos> ls
+
+
+    Directorio: C:\Users\xavia\onedrive\Documentos\Curso-E520\CienciadeDatos
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          4/9/2026     11:24                econ-520
+d-----          7/9/2026     16:24                repo-curso-2026
+
+
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\CienciadeDatos> cd repo-curso-2026
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\CienciadeDatos\repo-curso-2026> ls
+
+
+    Directorio: C:\Users\xavia\onedrive\Documentos\Curso-E520\CienciadeDatos\repo-curso-2026
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          7/9/2026     18:08                TAREAS
+
+
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\CienciadeDatos\repo-curso-2026> cd TAREAS
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\CienciadeDatos\repo-curso-2026\TAREAS> ls
+
+
+    Directorio: C:\Users\xavia\onedrive\Documentos\Curso-E520\CienciadeDatos\repo-curso-2026\TAREAS
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+-a----          7/9/2026     17:01              0 T01.R
+-a----          7/9/2026     18:08            734 Tarea01.txt
+
+
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\CienciadeDatos\repo-curso-2026\TAREAS> cd ..
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\CienciadeDatos\repo-curso-2026> cd ../..
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520> cd CienciadeDatos
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\CienciadeDatos> cd repo-curso-2026\TAREAS
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\CienciadeDatos\repo-curso-2026\TAREAS> pwd
+
+Path
+----
+C:\Users\xavia\onedrive\Documentos\Curso-E520\CienciadeDatos\repo-curso-2026\TAREAS
+
+
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\CienciadeDatos\repo-curso-2026\TAREAS> mkdir /temp/tutorial
+
+
+    Directorio: C:\temp
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          7/9/2026     18:39                tutorial
+
+
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\CienciadeDatos\repo-curso-2026\TAREAS> cd /temp/tutorial
+PS C:\temp\tutorial> pwd
+
+Path
+----
+C:\temp\tutorial
+
+
+PS C:\temp\tutorial> cd ..\..
+PS C:\> Remove-Item C:\temp -Reccurse
+>> ErrorTerminación(Remove-Item): "No se encuentra ningún parámetro que coincida con el nombre del parámetro 'Reccurse'."
+Remove-Item : No se encuentra ningún parámetro que coincida con el nombre del parámetro 'Reccurse'.
+En línea: 1 Carácter: 21
++ Remove-Item C:\temp -Reccurse
++                     ~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Remove-Item], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+Remove-Item : No se encuentra ningún parámetro que coincida con el nombre del parámetro 'Reccurse'.
+En línea: 1 Carácter: 21
++ Remove-Item C:\temp -Reccurse
++                     ~~~~~~~~~
+    + CategoryInfo          : InvalidArgument: (:) [Remove-Item], ParameterBindingException
+    + FullyQualifiedErrorId : NamedParameterNotFound,Microsoft.PowerShell.Commands.RemoveItemCommand
+
+PS C:\> Remove-Item C:\temp -Recurse
+PS C:\> cd ~
+PS C:\Users\xavia> cd ondrive\Documentos
+cd : No se encuentra la ruta de acceso 'C:\Users\xavia\ondrive\Documentos' porque no existe.
+En línea: 1 Carácter: 1
++ cd ondrive\Documentos
++ ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\xavia\ondrive\Documentos:String) [Set-Location], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso 'C:\Users\xavia\ondrive\Documentos' porque no existe.
+En línea: 1 Carácter: 1
++ cd ondrive\Documentos
++ ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\xavia\ondrive\Documentos:String) [Set-Location], Ite
+   mNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\xavia> cd ondrive/documentos
+cd : No se encuentra la ruta de acceso 'C:\Users\xavia\ondrive\documentos' porque no existe.
+En línea: 1 Carácter: 1
++ cd ondrive/documentos
++ ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\xavia\ondrive\documentos:String) [Set-Location], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso 'C:\Users\xavia\ondrive\documentos' porque no existe.
+En línea: 1 Carácter: 1
++ cd ondrive/documentos
++ ~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\xavia\ondrive\documentos:String) [Set-Location], Ite
+   mNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\xavia> cd ondrive
+cd : No se encuentra la ruta de acceso 'C:\Users\xavia\ondrive' porque no existe.
+En línea: 1 Carácter: 1
++ cd ondrive
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\xavia\ondrive:String) [Set-Location], ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso 'C:\Users\xavia\ondrive' porque no existe.
+En línea: 1 Carácter: 1
++ cd ondrive
++ ~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\xavia\ondrive:String) [Set-Location], ItemNotFoundEx
+   ception
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\xavia> cd C:\Users\xavia\onedrive
+PS C:\Users\xavia\onedrive> cd Documentos\Curso-E520
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520> cd repo-curso-2026
+cd : No se encuentra la ruta de acceso 'C:\Users\xavia\onedrive\Documentos\Curso-E520\repo-curso-2026' porque no existe.
+En línea: 1 Carácter: 1
++ cd repo-curso-2026
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\xavia\...repo-curso-2026:String) [Set-Location], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+cd : No se encuentra la ruta de acceso 'C:\Users\xavia\onedrive\Documentos\Curso-E520\repo-curso-2026'
+porque no existe.
+En línea: 1 Carácter: 1
++ cd repo-curso-2026
++ ~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\xavia\...repo-curso-2026:String) [Set-Location], Ite
+   mNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.SetLocationCommand
+
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520> pwd
+
+Path
+----
+C:\Users\xavia\onedrive\Documentos\Curso-E520
+
+
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520> cd Cienciadedatos\repo-curso-2026\TAREAS
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS> PWD
+
+Path
+----
+C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS
+
+
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS> mkdir prueba
+
+
+    Directorio: C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          7/9/2026     18:49                prueba
+
+
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS> cd prueba
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba> pwd
+
+Path
+----
+C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba
+
+
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba> mkdir dir4\dir5\dir6
+
+
+    Directorio:
+    C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba\dir4\dir5
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          7/9/2026     18:51                dir6
+
+
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba> ls
+
+
+    Directorio: C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          7/9/2026     18:51                dir4
+
+
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba> cd ..
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS> pwd
+
+Path
+----
+C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS
+
+
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS> mkdir tarea01
+
+
+    Directorio: C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          7/9/2026     18:53                tarea01
+
+
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS> cd prueba
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba> "Esto es prueba" > archivo.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="Esto es prueba"
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba> ls
+
+
+    Directorio: C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d-----          7/9/2026     18:51                dir4
+-a----          7/9/2026     18:58             34 archivo.txt
+
+
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba> cat archivo.txt
+Esto es prueba
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba> "this is test" > test_1.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is test"
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba> "this is test" > test_2.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is test"
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba> "this is third test" test_3.txt
+En línea: 1 Carácter: 22
++ "this is third test" test_3.txt
++                      ~~~~~~~~~~
+Token 'test_3.txt' inesperado en la expresión o la instrucción.
+En línea: 1 Carácter: 22
++ "this is third test" test_3.txt
++                      ~~~~~~~~~~
+Token 'test_3.txt' inesperado en la expresión o la instrucción.
+    + CategoryInfo          : ParserError: (:) [], ParentContainsErrorRecordException
+    + FullyQualifiedErrorId : UnexpectedToken
+
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba> "this is third tes" > test_3.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is third tes"
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba> cat test_1.txt, test_2.txt, test_3.txt > combined.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is test"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is test"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is third tes"
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba> cat combined.txt
+this is test
+this is test
+this is third tes
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba> "this is a thir test" > test_3.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is a thir test"
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba> cat combined.txt
+this is test
+this is test
+this is third tes
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba> cat test_1.txt, test_2.txt, test_3.txt > combined.txt
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is test"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is test"
+>> EnlaceDeParámetros(Out-File): nombre="InputObject"; valor="this is a thir test"
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba> cat combined.txt
+this is test
+this is test
+this is a thir test
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba> Get-Content combined.txt.Count
+Get-Content : No se encuentra la ruta de acceso 
+'C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba\combined.txt.Count' porque 
+no existe.
+En línea: 1 Carácter: 1
++ Get-Content combined.txt.Count
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\xavia\...bined.txt.Count:String) [Get-Content], 
+ItemNotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+Get-Content : No se encuentra la ruta de acceso 'C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos
+\repo-curso-2026\TAREAS\prueba\combined.txt.Count' porque no existe.
+En línea: 1 Carácter: 1
++ Get-Content combined.txt.Count
++ ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (C:\Users\xavia\...bined.txt.Count:String) [Get-Content], Item
+   NotFoundException
+    + FullyQualifiedErrorId : PathNotFound,Microsoft.PowerShell.Commands.GetContentCommand
+
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba> (Get-Content combined.txt).Count
+3
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba> ls | Measure-Object
+
+
+Count    : 6
+Average  :
+Sum      :
+Maximum  :
+Minimum  :
+Property :
+
+
+
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba> Get-Content combined.txt | Sport-Object
+Sport-Object : El término 'Sport-Object' no se reconoce como nombre de un cmdlet, función, archivo de script o programa 
+ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso, compruebe que dicha ruta es 
+correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 28
++ Get-Content combined.txt | Sport-Object
++                            ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Sport-Object:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+Sport-Object : El término 'Sport-Object' no se reconoce como nombre de un cmdlet, función, archivo de script
+o programa ejecutable. Compruebe si escribió correctamente el nombre o, si incluyó una ruta de acceso,
+compruebe que dicha ruta es correcta e inténtelo de nuevo.
+En línea: 1 Carácter: 28
++ Get-Content combined.txt | Sport-Object
++                            ~~~~~~~~~~~~
+    + CategoryInfo          : ObjectNotFound: (Sport-Object:String) [], CommandNotFoundException
+    + FullyQualifiedErrorId : CommandNotFoundException
+
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba> Get-Content combined.txt | Sort-Object
+this is a thir test
+this is test
+this is test
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba> Get-Content combined.txt | Sort-Object -Unique
+this is a thir test
+this is test
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba> (Get-Content combined.txt | Sort-Object -Unique).Count
+2
+PS C:\Users\xavia\onedrive\Documentos\Curso-E520\Cienciadedatos\repo-curso-2026\TAREAS\prueba> Stop-Transcript
+**********************
+Fin de la transcripción de Windows PowerShell
+Hora de finalización: 20260907191755
+**********************
